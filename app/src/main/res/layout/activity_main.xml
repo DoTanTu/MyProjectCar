@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background_blue"
+    android:background="#24253c"
     android:layout_gravity="center"
     tools:context=".MainActivity">
     <LinearLayout
@@ -38,16 +38,23 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:text="My Profile"
-                    android:textColor="#F8DB14"
+                    android:textColor="#d0596f"
                     android:textSize="30dp"
                     android:textStyle="bold" />
+
                 <ImageView
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:padding="5dp"
+                    android:id="@+id/id_logout"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
-                    android:layout_margin="5dp"
-                    android:src="@drawable/ic_baseline_notifications_24" />
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="-1dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="5dp"
+                    android:src="@drawable/dang_xuat" />
             </RelativeLayout>
 
 
@@ -73,6 +80,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

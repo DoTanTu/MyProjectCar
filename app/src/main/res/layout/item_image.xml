@@ -47,6 +47,7 @@
                     android:textColor="#5C5757"
                     android:textSize="13sp"
                     android:textStyle="normal" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -114,8 +115,8 @@
     </RelativeLayout>
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:layout_width="98dp"
-        android:layout_height="98dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:elevation="15dp"
         android:padding="5dp"

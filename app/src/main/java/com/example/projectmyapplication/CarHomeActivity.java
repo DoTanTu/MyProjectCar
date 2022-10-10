@@ -22,8 +22,8 @@ public class CarHomeActivity extends AppCompatActivity {
         binding = ActivityCarHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        int[] imageId = {R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,
-                R.drawable.f,R.drawable.g,R.drawable.h,R.drawable.i};
+        int[] imageId = {R.drawable.xe1,R.drawable.xe2,R.drawable.xe3,R.drawable.xe4,R.drawable.xe4,
+                R.drawable.xe6,R.drawable.xe7,R.drawable.xe8,R.drawable.xe3};
         String[] name = {"Christopher","Craig","Sergio","Mubariz","Mike","Michael","Toa","Ivana","Alex"};
         String[] lastMessage = {"Heye","Supp","Let's Catchup","Dinner tonight?","Gotta go",
                 "i'm in meeting","Gotcha","Let's Go","any Weekend Plans?"};

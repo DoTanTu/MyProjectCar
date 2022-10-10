@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="#FFC107"
+    android:background="#24253c"
     tools:context=".HomeActivity">
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/id_comback_main"
+            android:id="@+id/id_comback_login"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
@@ -55,11 +55,7 @@
         android:layout_marginBottom="70dp"
         android:orientation="vertical"
         >
-        <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/ic_baseline_school"
-            />
+
 
     </LinearLayout>
     <LinearLayout
@@ -85,7 +81,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#EA4A1A"
+            android:background="#F1F1F1"
             android:orientation="vertical"
             android:gravity="center">
             <ImageView
@@ -99,7 +95,7 @@
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:text="Manager Profile"
-                android:textColor="@color/white"
+                android:textColor="#d0596f"
                 android:layout_height="wrap_content"/>
             <View
                 android:layout_width="match_parent"
@@ -130,7 +126,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp">
             <LinearLayout
-                android:background="#2196F3"
+                android:background="#FFFFFF"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -139,14 +135,14 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/background_cycle_blue"
-                    android:src="@drawable/diet"
+                    android:src="@drawable/car"
                     />
                 <TextView
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:text="Favorite Food"
-                    android:textColor="@color/white"
+                    android:text="List of Cars"
+                    android:textColor="#d0596f"
                     android:layout_height="wrap_content"/>
                 <View
                     android:layout_width="match_parent"
@@ -187,7 +183,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp">
             <LinearLayout
-                android:background="#FFEB3B"
+                android:background="#FFFFFF"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -202,7 +198,7 @@
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:textColor="@color/white"
+                    android:textColor="#d0596f"
                     android:text="Favorite Book"
                     android:layout_height="wrap_content"/>
                 <View
@@ -233,7 +229,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp">
             <LinearLayout
-                android:background="#25D7ED"
+                android:background="#FFFFFF"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -248,7 +244,7 @@
                     android:layout_marginTop="10dp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:textColor="@color/white"
+                    android:textColor="#d0596f"
                     android:text="Daily Work"
                     android:layout_height="wrap_content"/>
                 <View

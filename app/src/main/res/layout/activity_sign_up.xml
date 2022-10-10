@@ -38,22 +38,28 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
                 android:background="@drawable/edit_editext_lg"
-                android:hint="Username"
+                android:hint="First Name"
                 android:inputType="text"
                 android:padding="12dp"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white" />
+                android:textColorHint="@color/white"
+
+                />
 
             <EditText
                 android:id="@+id/id_lastname_account"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
                 android:layout_alignParentRight="true"
                 android:layout_gravity="center"
                 android:background="@drawable/edit_editext_lg"
-                android:hint="Username"
+                android:hint="Last Name"
                 android:inputType="text"
                 android:padding="12dp"
                 android:textColor="@color/white"
@@ -61,6 +67,7 @@
         </RelativeLayout>
         <EditText
             android:id="@+id/id_email_new"
+
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -71,10 +78,13 @@
             android:textColor="@color/white"
             android:inputType="textEmailAddress"
             android:padding="12dp"
-            android:textColorHint="@color/white" />
+            android:textColorHint="@color/white"
+            />
         <EditText
             android:id="@+id/id_pass_new"
             android:layout_width="320dp"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -90,6 +100,8 @@
             android:id="@+id/id_confirm_pass_new"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/edit_editext_lg"
