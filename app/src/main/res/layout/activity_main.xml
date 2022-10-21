@@ -64,17 +64,14 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
         </LinearLayout>
-
-
     </LinearLayout>
     <include
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         layout="@layout/item_image"/>
     <ScrollView
         android:layout_width="match_parent"
@@ -83,11 +80,13 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:orientation="vertical"
+        android:background="#24253c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <include layout="@layout/item_add"/>
         <include layout="@layout/item_info"/>
         <include layout="@layout/item_email"/>
+        <include layout="@layout/item_add" />
+
     </LinearLayout>
 
 </LinearLayout>

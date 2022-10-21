@@ -16,8 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="240dp"
             android:layout_marginTop="40dp"
-            app:cardCornerRadius="15dp"
-            app:cardMaxElevation="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardMaxElevation="5dp"
             app:cardUseCompatPadding="true"
             card_view:cardCornerRadius="5dp">
 
@@ -30,7 +30,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="35dp"
                     android:gravity="center"
                     android:text="Do Tan Tu"
                     android:textColor="@color/black"
@@ -115,8 +115,8 @@
     </RelativeLayout>
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_centerHorizontal="true"
         android:elevation="15dp"
         android:padding="5dp"

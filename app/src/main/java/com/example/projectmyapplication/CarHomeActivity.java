@@ -22,7 +22,7 @@ public class CarHomeActivity extends AppCompatActivity {
         binding = ActivityCarHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        int[] imageId = {R.drawable.xe1,R.drawable.xe2,R.drawable.xe3,R.drawable.xe4,R.drawable.xe4,
+        int[] imageId = {R.drawable.img,R.drawable.xe2,R.drawable.xe3,R.drawable.xe4,R.drawable.xe4,
                 R.drawable.xe6,R.drawable.xe7,R.drawable.xe8,R.drawable.xe3};
         String[] name = {"Christopher","Craig","Sergio","Mubariz","Mike","Michael","Toa","Ivana","Alex"};
         String[] lastMessage = {"Heye","Supp","Let's Catchup","Dinner tonight?","Gotta go",

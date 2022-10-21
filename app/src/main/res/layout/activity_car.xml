@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#24253c"
     android:layout_height="match_parent"
-    tools:context=".DetailCarActivity">
+    tools:context=".DetailCarActivity"
+    android:orientation="vertical">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/profile_image"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/facebook_avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@drawable/boder_item"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/facebook_avatar" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/scode_profile"
@@ -21,38 +34,39 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/profile_image"
         android:layout_marginTop="10dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="" />
 
     <RelativeLayout
         android:id="@+id/relative_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/scode_profile"
+        android:background="?attr/selectableItemBackground"
         android:clickable="true"
         android:focusable="true"
-        android:background="?attr/selectableItemBackground"
-        android:layout_below="@+id/scode_profile"
         android:paddingVertical="10dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginStart="70dp">
+            android:layout_marginStart="70dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Name"
-                android:textSize="12sp"/>
+                android:textColor="@color/white"
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/name_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Chris Morris"
-                android:textSize="26sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/white"
+                android:textSize="26sp" />
 
         </LinearLayout>
 
@@ -70,22 +84,23 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginStart="70dp">
+            android:layout_marginStart="70dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Phone"
-                android:textSize="12sp"/>
+                android:textColor="@color/white"
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/phone_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="+91-999999999"
-                android:textSize="26sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/white"
+                android:textSize="26sp" />
 
         </LinearLayout>
 
@@ -126,6 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Country"
+                android:textColor="@color/white"
                 android:textSize="12sp"/>
 
             <TextView
@@ -134,7 +150,7 @@
                 android:layout_height="wrap_content"
                 android:text="UAE"
                 android:textSize="26sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 
@@ -159,4 +175,4 @@
 
 
 
-</RelativeLayout>
+</LinearLayout>
